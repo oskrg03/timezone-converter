@@ -1,0 +1,23 @@
+<div class="container col-md-4">
+    <h1 class="card-text">Timezone converter</h1>
+   <form [formGroup]="form">
+   
+    <div class="input-group mb-3">
+  
+      <input formControlName="time" type="text" class="form-control" placeholder="18:31:45" aria-label="time" 
+      aria-describedby="basic-addon1" required>
+    </div>
+  
+    <div class="input-group mb-3">
+      <input formControlName="timezone" type="number" class="form-control" placeholder="" aria-label="Zona Horaria"
+        aria-describedby="basic-addon2" required>
+  
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">respuesta</label>
+      <textarea class="form-control" id="response" rows="8" readonly>{{response}}</textarea>
+    </div>
+  </form>
+    <button type="button" class="btn btn-dark" (click)="getHora()">Calcular</button>
+  </div>
+  
