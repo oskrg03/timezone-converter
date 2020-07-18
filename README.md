@@ -1,6 +1,3 @@
-<p align="center">
-  <a href="https://angular.io/" target="blank"><img src="https://images.app.goo.gl/eQjZ8EiCdoRWC1SeA" width="320" alt="Angular Logo" /></a>
-</p>
 
 # Descripción
 
