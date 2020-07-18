@@ -20,7 +20,6 @@ export class ConverterComponent implements OnInit {
     timezone: new FormControl(0)
   });
 
-
   getHora() {
     let time = this.form.value['time'];
     let timezone = this.form.value['timezone']
