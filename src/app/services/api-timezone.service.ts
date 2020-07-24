@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiTimezoneService {
-  url ="http://back-service.herokuapp.com" 
+  url ="https://back-service.herokuapp.com" 
   httpOptions = {
     headers: new HttpHeaders({
       "content-Type": "application/json",
